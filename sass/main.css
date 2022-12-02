@@ -1,0 +1,198 @@
+/*Variables*/
+body {
+  background-color: black;
+}
+
+.container-fluid .imglogo {
+  width: 20%;
+  height: 20%;
+}
+.container-fluid .imgbanner {
+  width: 70%;
+  height: auto;
+}
+
+.Slogan {
+  color: white;
+  font-size: 5vh;
+}
+
+nav ul {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+nav ul li {
+  display: inline;
+  list-style-type: none;
+}
+nav ul li .listado {
+  color: white;
+  background-color: grey;
+  border: outset white 3px;
+  font-size: 17px;
+  margin: 0px;
+  padding: 0px 5px 0px 10px;
+}
+nav ul li .listado:hover {
+  color: red;
+  font-style: oblique;
+}
+@media (max-width: 425px) {
+  nav ul li .listado {
+    font-size: 12px;
+    list-style-type: none;
+  }
+}
+
+h1 {
+  color: white;
+  font-size: 28px;
+  padding-bottom: 15px;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-iteration-count: 2000;
+          animation-iteration-count: 2000;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    margin-right: 10%;
+    width: 90%;
+    color: yellow;
+  }
+  to {
+    margin-left: 5%;
+    width: 90%;
+    color: white;
+  }
+}
+@keyframes fadeIn {
+  from {
+    margin-right: 10%;
+    width: 90%;
+    color: yellow;
+  }
+  to {
+    margin-left: 5%;
+    width: 90%;
+    color: white;
+  }
+}
+
+.cabezalHome {
+  margin: auto auto;
+  width: 300px;
+  height: 500px;
+}
+
+.textohome {
+  margin-top: 15px;
+  width: auto;
+  height: 530px;
+  font-size: 18px;
+  border: dotted 1px;
+  Overflow: scroll;
+  overflow-x: hidden;
+  color: white;
+}
+
+.animacion {
+  width: 100%;
+  height: auto;
+  padding: auto;
+}
+
+.form {
+  padding-top: 20px;
+  color: white;
+  font-size: 14px;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  margin-top: 15px;
+}
+
+h2 {
+  color: white;
+  font-size: 4vh;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-iteration-count: 2000;
+          animation-iteration-count: 2000;
+}
+
+@keyframes fadeIn {
+  from {
+    margin-right: 10%;
+    width: 90%;
+    color: yellow;
+  }
+  to {
+    margin-left: 5%;
+    width: 90%;
+    color: white;
+  }
+}
+.iconoInstagram {
+  width: 45px;
+  padding-top: 10px;
+}
+
+.iconoLinkedin {
+  width: 45px;
+  padding-top: 10px;
+}
+
+.card-body {
+  background-color: black;
+  padding-top: 10px;
+}
+.card-title {
+  color: white;
+}
+.card-text {
+  font-size: 15px;
+  color: white;
+}
+
+.prodImg {
+  border: 3px;
+  border-style: double;
+  border-color: red;
+  margin-left: 95px;
+  height: 90%;
+  width: 80%;
+  align-self: center;
+}
+@media (max-width: 538px) {
+  .prodImg {
+    height: 200px;
+    width: 300px;
+    margin-left: 15px;
+  }
+}
+
+.textoProd {
+  color: white;
+  height: 300px;
+  Overflow: scroll;
+  overflow-x: hidden;
+  margin-left: 5px;
+  font-size: 18px;
+  padding-right: 21px;
+  border: dotted 1px;
+}
+
+h3 {
+  color: white;
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=main.css.map */

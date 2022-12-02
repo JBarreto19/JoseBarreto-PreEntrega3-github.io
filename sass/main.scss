@@ -1,0 +1,174 @@
+@import 'vars';
+body{
+    background-color: $bgColor;
+}
+    .container-fluid{
+        .imglogo{
+            width: 20%;
+            height: 20%;
+        }
+        .imgbanner{
+            width: 70%;
+            height: auto;
+        }   
+    }
+.Slogan{
+    color: $textColor;
+    font-size: $mainTitleSize;
+}
+nav{
+    ul{
+     padding-inline-start: 0px;
+        li{
+            display: inline;
+            list-style-type: none;
+                .listado{
+                    color: $textColor;
+                    background-color: $bgButton;
+                    border: $borderButton;
+                    font-size: $texButtonSize;
+                    margin: $marginButton;
+                    padding: $paddingButton;
+                    &:hover{
+                        color: red;
+                        font-style: oblique;
+                        }
+                        @media (max-width:425px) {
+                                font-size: 12px;
+                                list-style-type: none;
+                                }
+               }
+        }
+    }
+}
+h1 {
+    color:$textColor;
+    font-size: $subtitle;
+    padding-bottom: 15px;
+    animation: {
+            duration: $animationDuration;
+            name: fadeIn;
+            iteration-count:$animationCount;
+    }
+    @keyframes fadeIn {
+        from {
+          margin-right:10%;
+          width: 90%;
+          color:yellow;
+        }
+        to {
+          margin-left: 5%;
+          width: 90%;
+          color:white,
+          }
+    }
+}
+.cabezalHome{
+    margin:$imageLeftHome;
+    width: 300px;
+    height: 500px;
+}
+
+.textohome{
+    margin-top:15px;
+    width:auto;
+    height: 530px;
+    font-size: 18px;
+    border:$bordertext;
+    Overflow: scroll;
+    overflow-x: hidden;
+    color:$textColor
+}
+.animacion{
+    width: 100%;
+    height: auto;
+    padding: auto;
+}
+.form{
+    padding-top: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    margin-top:15px;
+}
+h2{
+    color:$textColor;
+    font-size: 4vh;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    animation-duration:$animationDuration;
+    animation-name: fadeIn;
+    animation-iteration-count: $animationCount;
+  }
+
+  @keyframes fadeIn {
+    from {
+      margin-right:10%;
+      width: 90%;
+      color:yellow;
+    }
+    to {
+      margin-left: 5%;
+      width: 90%;
+      color:white,
+      }
+}
+  
+@mixin iconos{
+    width: 45px;
+    padding-top: 10px;
+}
+.iconoInstagram{
+    @include iconos;
+}
+.iconoLinkedin{
+    @include iconos;
+}
+.card{
+    &-body{
+        background-color: $bgColor;
+        padding-top: 10px;
+    }
+    &-title{
+        color:$textColor
+    }
+    &-text{
+        font-size: 15px;
+        color: $textColor;
+    }
+}
+.prodImg{
+    border: 3px;
+    border-style: double;
+    border-color: red;
+        @media (max-width:538px) {
+            height: 200px;
+            width: 300px;
+            margin-left: 15px;
+        }
+    margin-left: 95px;
+    height: 90%;
+    width: 80%;
+    align-self: center;
+}
+.textoProd{
+    color: $textColor;
+    height: 300px;
+    Overflow: scroll;
+    overflow-x: hidden;
+    margin-left: 5px;
+    font-size:18px ;
+    padding-right: 21px;
+    border: $bordertext;
+}
+h3{
+    color:$textColor;
+    font-size: $subtitle;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
